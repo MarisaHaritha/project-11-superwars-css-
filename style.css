@@ -1,4 +1,39 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+#grid-container{
+  display: grid;
+  margin-left: 250px;
+  margin-right: 250px;
+  grid-gap: 1em;
+  grid-template-columns: .5fr .5fr 1fr .5fr .5fr;
+  grid-template-rows: 250px;
+
+}
+
+#grid-container>div{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#box1{
+  border-radius: 5px;
+  border: 5px solid lightgrey;
+}
+#box2{
+  border-radius: 5px;
+  border: 5px solid lightgrey;
+}
+#box3{
+  font-size: 50px;
+}
+#box4{
+  border-radius: 5px;
+  border: 5px solid lightgrey;
+}#box5{
+  border-radius: 5px;
+  border: 5px solid lightgrey;
+}
+#main{
+  font-size: 20px;
+}
+#value{
+  font-size: 50px;
 }
